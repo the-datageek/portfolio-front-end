@@ -1,5 +1,6 @@
 import React, { useState} from "react"
 import './Login.css'
+//import {CiUser} from 'react-icons/ci' 
 
 
 function Login({setToken}) {
@@ -43,14 +44,14 @@ function Login({setToken}) {
                    <div className="i-left">
                 <div className="i-name">
                 <form onSubmit={handleSubmit}>
-                        
-                            <input 
+                    
+                    <input 
                             type="text" 
                             onChange={handleUsername}
                             placeholder="Username"
                             className="login-name"
                             />
-                            
+                           
                             <input 
                             type="password" 
                             onChange={handlePassword}

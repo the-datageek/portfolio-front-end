@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Poppins:wght@400;500&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Popins", sans-serif;
+}
+
+/*--Colors--*/
+:root{
+  --FirstColor: #424530;
+  --SecondColor: #a58e74;
+  --ThirdColor: #ed9132;
+  --FourthColor: #FFFFFF;
+  --FifthColor: #f4f4f9;
+  --SixthColor: #676b57;
+  --BodyColor: #ffefcd;
+}
+
+body{
+  background: var(--BodyColor);
+}
+
+
+
+

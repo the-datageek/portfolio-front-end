@@ -1,6 +1,6 @@
 body{
     max-width: 100%;
-    font-family: "Poppins",sans-serif
+    font-family: "Poppins", sans-serif;
 }
 
 .login{
@@ -40,7 +40,7 @@ body{
     margin-bottom: 0.5em;
     width: 18rem;
     font-family: inherit;
-    color: var(--ThirdColor);
+    color: var(--FirstColor);
     font-size: 14px;
     outline-color: var(--FirstColor);
     box-shadow: 0 4px 8px 0 rgba(55, 68, 45, 0.2);
@@ -66,7 +66,7 @@ body{
     margin-bottom: 1em;
     width: 18rem;
     font-family: inherit;
-    color: var(--ThirdColor);
+    color: var(--FirstColor);
     font-size: 14px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
@@ -90,7 +90,7 @@ body{
     margin-bottom: 0.5em;
     width: 18rem;
     font-family: inherit;
-    color: var(--ThirdColor);
+    color: var(--FirstColor);
     font-size: 14px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -118,7 +118,7 @@ body{
     margin-bottom: 0.5em;
     width: 18rem;
     font-family: inherit;
-    color: var(--ThirdColor);
+    color: var(--FirstColor);
     font-size: 14px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -137,7 +137,7 @@ body{
     margin-bottom: 1em;
     width: 18rem;
     font-family: inherit;
-    color: var(--ThirdColor);
+    color: var(--FirstColor);
     font-size: 14px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -271,3 +271,4 @@ body{
     font-family: 'Mynerve', cursive;
 
 }
+
