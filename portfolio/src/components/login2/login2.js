@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import * as Components from './Components'
-import './login.css'
+import './login2.css'
 
 function Login2() {
     const [signIn, toggle] = React.useState(true);
