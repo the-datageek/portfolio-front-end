@@ -26,12 +26,36 @@ function Registration(props){
 
                 </div>
                 
-         
-
+        
                  <form>
                     <p className="reg-title">Add Projects</p>
                     
                     <input
+                    type="text" 
+                    onChange={project}
+                    placeholder="Add Project Name"
+                    className="reg-project-name"
+                    /> 
+          
+                <textarea className="reg-project-desc">Add project description</textarea>
+                    
+                <input
+                    type="text" 
+                    onChange={project}
+                    placeholder="Add Project Name"
+                    className="reg-project-name"
+                    /> 
+          
+                <textarea className="reg-project-desc">Add project description</textarea>
+                <input
+                    type="text" 
+                    onChange={project}
+                    placeholder="Add Project Name"
+                    className="reg-project-name"
+                    /> 
+          
+                <textarea className="reg-project-desc">Add project description</textarea>
+                <input
                     type="text" 
                     onChange={project}
                     placeholder="Add Project Name"
@@ -48,11 +72,25 @@ function Registration(props){
                     placeholder="Add skills"
                     className="reg-skill-name"
                     />  
-
-               <textarea className="reg-skill-desc">Add project description</textarea>
-                   
-                
-
+                     <input
+                    type="text" 
+                    onChange={skill}
+                    placeholder="Add skills"
+                    className="reg-skill-name"
+                    />  <input
+                    type="text" 
+                    onChange={skill}
+                    placeholder="Add skills"
+                    className="reg-skill-name"
+                    /> 
+                     <input
+                    type="text" 
+                    onChange={skill}
+                    placeholder="Add skills"
+                    className="reg-skill-name"
+                    /> 
+               
+    
                 <button className="reg-btn">Save Changes</button>
             
             </form>
