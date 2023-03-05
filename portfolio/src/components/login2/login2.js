@@ -5,6 +5,9 @@ import './login2.css'
 function Login2() {
     const [signIn, toggle] = React.useState(true);
     return(
+        <div>
+            <p className="log-title">My Portfolio App</p>
+        
         <Components.Container>
             <Components.SignUpContainer signinIn={signIn}>
                 <Components.Form>
@@ -22,7 +25,7 @@ function Login2() {
                      <Components.Input type='email' placeholder='Email' />
                      <Components.Input type='password' placeholder='Password' />
                      <Components.Anchor href='#'>Forgot your password?</Components.Anchor>
-                     <Components.Button>Sigin In</Components.Button>
+                     <Components.Button>Sign In</Components.Button>
                  </Components.Form>
             </Components.SignInContainer>
 
@@ -45,7 +48,7 @@ function Login2() {
                           Enter Your personal details and start journey with us
                       </Components.Paragraph>
                           <Components.GhostButton onClick={() => toggle(false)}>
-                              Sigin Up
+                              Sign Up
                           </Components.GhostButton> 
                     </Components.RightOverlayPanel>
 
@@ -53,6 +56,8 @@ function Login2() {
             </Components.OverlayContainer>
 
         </Components.Container>
+
+        </div>
     )
 }
 

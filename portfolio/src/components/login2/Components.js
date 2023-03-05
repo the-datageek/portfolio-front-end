@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+    
 
     export const Container = styled.div`
         background-color: var(--FirstColor);
@@ -54,6 +55,8 @@ import styled from 'styled-components';
     export const Title = styled.h1`
     font-weight: bold;
     margin: 0;
+    font-color: var(--FirstColor)
+    font-family: inherit;
     `;
 
     export const Input = styled.input`
@@ -63,6 +66,9 @@ import styled from 'styled-components';
     padding: 12px 15px;
     margin: 8px 0;
     width: 100%;
+    &&:hover{
+        transform: scale(1.1);
+        transition: transform 0.2s ease-out;
     `;
 
 
@@ -82,6 +88,13 @@ import styled from 'styled-components';
     }
     &:focus {
         outline: none;
+    }
+    &:hover{
+        border:none;
+        background-color: var(--FirstColor);
+        color: var(--FourthColor);
+        transform: scale(0.9);
+        transition: transform 0.2s ease-out;
     }
     `;
     export const GhostButton = styled(Button)`
