@@ -28,8 +28,7 @@ function Registration(props){
                 
          
 
-            
-                <div>
+                 <form>
                     <p className="reg-title">Add Projects</p>
                     
                     <input
@@ -41,10 +40,7 @@ function Registration(props){
           
                 <textarea className="reg-project-desc">Add project description</textarea>
                     
-                 
-                </div>
-
-                <div>
+ 
                     <p className="reg-title">Add Skills</p>
                     <input
                     type="text" 
@@ -55,15 +51,12 @@ function Registration(props){
 
                <textarea className="reg-skill-desc">Add project description</textarea>
                    
-                </div>
+                
 
-            
-
-            </div>
-            <div className="r-right">
                 <button className="reg-btn">Save Changes</button>
-            </div>
             
+            </form>
+            </div>
         </div>
     )
 

@@ -1,7 +1,7 @@
 import React from "react"
 import './home.css'
 import Image1 from './img1.jpeg'
-import Image2 from './img2.jpeg'
+
 
 
 function Home(){
@@ -34,7 +34,7 @@ function Home(){
                         <div className="project__box pointer relative">
                             <div className="porject__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={Image2} alt="" className="project__img" />
+                                    <img src={Image1} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
@@ -82,7 +82,7 @@ function Home(){
                         <div className="project__box pointer relative">
                             <div className="porject__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={Image2} alt="" className="project__img" />
+                                    <img src={Image1} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
