@@ -142,7 +142,20 @@ body{
 .prof-del{
     
     font-size: 30px;
-    background-color: white;
-    border-radius: 20rem;
-    
+    background-color: var(--SixthColor);
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 9rem;
+    margin-left: 14rem;
+    cursor:pointer;
+    outline-color: transparent;
+  
+}
+
+.prof-del:hover{
+    background-color: var(--SecondColor);
+    color: var(--FifthColor);
+    transform: scale(0.9);
+    transition: transform 0.2s ease-out;
+    outline-color: none;
 }
