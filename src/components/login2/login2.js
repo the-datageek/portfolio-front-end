@@ -68,6 +68,7 @@ function Login2() {
       return(
         <div className="login">
           <div className="i-left">
+            <p className="log-title"> Portfolio-Genie</p>
                <img src={'https://tinyurl.com/yc5e6bms'} alt="Add Image"  className="log-img" />
           </div>
           

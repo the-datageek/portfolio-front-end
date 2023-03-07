@@ -16,9 +16,9 @@ body {
 
 .log-title{
   color: var(--FirstColor);
-    font-size: 40px;
-    margin-bottom: 2rem;
-    margin-left: 32rem;
+    font-size: 50px;
+    margin-left:10rem;
+    margin-top: 2rem;
     font-family: 'Mynerve', cursive;
 
 }
