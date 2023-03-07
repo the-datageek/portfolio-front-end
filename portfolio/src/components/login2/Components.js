@@ -10,6 +10,11 @@ import styled from 'styled-components';
         width: 678px;
         max-width: 100%;
         min-height: 400px;
+        padding: 20px;
+        margin-top: 5rem;
+        margin-left:6rem
+     
+        
         `;
 
     export const SignUpContainer = styled.div`

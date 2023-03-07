@@ -1,69 +1,60 @@
-.navMenu {
-position: absolute;
-top: 5%;
-left: 50%;
--webkit-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-
+*{
+    box-sizing: border-box;
 }
 
-.navMenu li {
-color: #000000;
-text-decoration: none;
-font-size: 1.2em;
-text-transform: uppercase;
-font-weight: 500;
-display: inline-block;
-width: 80px;
--webkit-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+   
 }
 
-.navMenu li:hover {
-color: #fddb3a;
+.site-title{
+    font-size: 1.8rem;
+    font-family:'Mynerve', cursive;;
 }
 
-.navMenu .dot {
-width: 6px;
-height: 6px;
-background: #fddb3a;
-border-radius: 50%;
-opacity: 0;
--webkit-transform: translateX(30px);
-transform: translateX(30px);
--webkit-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;
+.nav{
+    background-color: var(--FirstColor);
+    position: fixed;
+    color: var(--FifthColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 2rem;
+    width:88rem;
+    margin-top: -8.5em;
+    margin-left:-15rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}   
+
+.nav ul{
+    margin: 2px;
+    padding: 4px;
+    list-style:none;
+    display: flex;
+    gap: 1rem;
 }
 
-.navMenu li:nth-child(1):hover ~ .dot {
--webkit-transform: translateX(30px);
-transform: translateX(30px);
--webkit-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;
-opacity: 1;
+.nav a{
+     color: inherit;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     
 }
 
-.navMenu li:nth-child(2):hover ~ .dot {
--webkit-transform: translateX(110px);
-transform: translateX(110px);
--webkit-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;
-opacity: 1;
+.nav li{
+    margin-right: 20px;
 }
 
-.navMenu li:nth-child(3):hover ~ .dot {
--webkit-transform: translateX(200px);
-transform: translateX(200px);
--webkit-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;
-opacity: 1;
+.nav li:active{
+    color: var(--FourthColor);
 }
 
-
-.noShow{
-display: none;
+.nav li:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-out;
 }
 
-.show{
-display: block
-}

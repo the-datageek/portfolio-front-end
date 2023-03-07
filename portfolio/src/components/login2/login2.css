@@ -11,14 +11,24 @@ body {
   flex-direction: column;
   font-family: "Poppins", sans-serif;
   height: 100vh;
-  margin: -20px 0 50px;
+  margin-left: 20rem;
 }
 
 .log-title{
   color: var(--FirstColor);
     font-size: 40px;
     margin-bottom: 2rem;
-    margin-left: 12rem;
+    margin-left: 32rem;
     font-family: 'Mynerve', cursive;
 
+}
+
+.log-img{
+  height:18rem;
+  outline-color: var(--FourthColor);
+  margin-bottom: -25rem;
+  margin-left: -12rem;
+  margin-top: 6rem;
+
+  
 }

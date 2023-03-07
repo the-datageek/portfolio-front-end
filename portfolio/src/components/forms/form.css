@@ -1,0 +1,245 @@
+/* 
+.proj-cont{
+    margin-top: 5rem;
+} */
+
+ .project-form, .skill-form {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid var(--FirstColor);
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-top: -4rem;
+    box-shadow: 0 4px 8px 0 rgba(55, 68, 45, 0.2);
+
+  } 
+
+/* .project-form, .skill-form{
+    margin-left: -27rem;
+} */
+
+body{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    height: auto;
+    padding: 0;
+    overflow: scroll;
+   
+
+}
+ 
+  
+.form label {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: -1em;
+    margin-left: 10em;
+    color: var(--FirstColor);
+    font-family: "Popins", sans-serif;
+  }
+
+
+
+/*--Input--*/
+  
+  .project-input, .skill-input{
+    background-color: var(--BodyColor);
+    border-radius: 8px;
+    padding: 15px 15px;
+    border: 8px;
+    margin: 18px;
+    margin-bottom: 0.5rem;
+    width: 20rem;
+    font-family: inherit;
+    color: var(--FirstColor);
+    font-size: 14px;
+    outline-color: var(--FirstColor);
+    box-shadow: 0 4px 8px 0 rgba(55, 68, 45, 0.2);
+  }
+
+  .project-input:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-out;
+  }
+
+  .skill-input:hover{
+
+    transform: scale(1.1);
+    transition: transform 0.2s ease-out;
+
+  }
+
+  .added-skill{
+    background-color: var(--BodyColor);
+    border-radius: 8px;
+    padding: 15px 15px;
+    border: 8px;
+    margin: 18px;
+    margin-bottom: 0.5rem;
+    width: 20rem;
+    font-family: inherit;
+    color: var(--FirstColor);
+    font-size: 14px;
+    outline-color: var(--FirstColor);
+    box-shadow: 0 4px 8px 0 rgba(55, 68, 45, 0.2);
+
+  }
+ /*--Button--*/ 
+.add-p-btn{
+    background: var(--FirstColor);
+    color: var(--BodyColor);
+    font-family: inherit;
+    border-radius: 8px;
+    padding: 12px 28px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-family:inherit;
+    letter-spacing: 1px;
+    margin-left:2em;
+   
+}
+
+.skill-btn, .cancel-btn{
+
+    background: var(--FirstColor);
+    color: var(--BodyColor);
+    font-family: inherit;
+    border-radius: 8px;
+    padding: 12px 28px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-family:inherit;
+    letter-spacing: 1px;
+    margin-left:2em;
+
+}
+
+.add-p-btn:hover{
+    background-color: var(--FirstColor);
+    color: var(--FifthColor);
+    transform: scale(0.9);
+    transition: transform 0.2s ease-out;
+}
+
+.skill-btn:hover{
+    background-color: var(--FirstColor);
+    color: var(--FifthColor);
+    transform: scale(0.9);
+    transition: transform 0.2s ease-out;
+}
+
+.edit-btn, .edit-s-btn{
+    background: var(--FirstColor);
+    color: var(--BodyColor);
+    font-family: inherit;
+    border-radius: 8px;
+    padding: 10px 28px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-family:inherit;
+    letter-spacing: 1px;
+    margin-left:8em;
+
+}
+
+.edit-btn:hover{
+    background-color: var(--FirstColor);
+    color: var(--FifthColor);
+    transform: scale(0.9);
+    transition: transform 0.2s ease-out;
+}
+
+.delete-btn{
+    background: var(--ThirdColor);
+    color: var(--BodyColor);
+    font-family: inherit;
+    border-radius: 8px;
+    padding: 10px 28px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-family:inherit;
+    letter-spacing: 1px;
+    margin-left:1em;
+}
+
+.delete-btn:hover{
+    background-color: var(--FirstColor);
+    color: var(--FifthColor);
+    transform: scale(0.9);
+    transition: transform 0.2s ease-out;
+}
+
+
+/*--title and headings--*/
+ 
+
+.p-title{
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: -1em;
+   color: var(--FirstColor);
+   font-family: "Popins", sans-serif;
+   margin-top: 1rem;
+}
+
+.title-tag{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--FourthColor);
+    font-family: "Popins", sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+   
+
+}
+
+/*--container--*/
+.proj-list{
+    width: 25rem;
+    padding: 10px;
+    background-color: var(--SixthColor);
+    border-radius: 8px;
+    border: 1px solid var(--FirstColor);
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.err-msg{
+    font-size: 16px;
+   color: var(--FifthColor);
+   font-family: "Popins", sans-serif;
+}
+
+ 
+  
+  
+  
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+li{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: var(--FifthColor);
+    font-family: "Popins", sans-serif;
+ }
+
+ 

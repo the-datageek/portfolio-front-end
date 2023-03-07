@@ -18,12 +18,13 @@
   --FourthColor: #FFFFFF;
   --FifthColor: #f4f4f9;
   --SixthColor: #676b57;
-  --BodyColor: #ffefcd;
+  --BodyColor: #ffff;
 }
 
 body{
   background: var(--BodyColor);
 }
+
 
 
 
